@@ -4,6 +4,10 @@ final class MovieQuizViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imageView.layer.cornerRadius = 20
+        imageView.layer.masksToBounds = true
+        
         let firstQuestion = questions[currentQuestionIndex]
             let viewModel = convert(model: firstQuestion)
             show(quiz: viewModel)
