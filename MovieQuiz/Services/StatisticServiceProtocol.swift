@@ -1,9 +1,3 @@
-//
-//  StatisticServiceProtocol.swift
-//  MovieQuiz
-//
-//  Created by Allianse on 18.10.2025.
-//
 import Foundation
 
 protocol StatisticServiceProtocol {

@@ -1,9 +1,3 @@
-//
-//  GameResult.swift
-//  MovieQuiz
-//
-//  Created by Allianse on 18.10.2025.
-//
 import Foundation
 struct GameResult {
     var correct: Int

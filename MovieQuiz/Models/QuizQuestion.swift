@@ -1,9 +1,3 @@
-//
-//  QuizQuestion.swift
-//  MovieQuiz
-//
-//  Created by Allianse on 10.10.2025.
-//
 import Foundation
 
 struct QuizQuestion {

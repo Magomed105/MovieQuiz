@@ -1,5 +1,4 @@
 import Foundation
-import Foundation
 
 final class ResultPresenter {
     private let statisticService: StatisticServiceProtocol
