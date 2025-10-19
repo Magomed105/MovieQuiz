@@ -5,11 +5,9 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate {
     
     
     @IBOutlet private var imageView: UIImageView!
-    //@IBOutlet private var questionLabel: UILabel!
     @IBOutlet private var indexLabel: UILabel!
     @IBOutlet private var yesButton: UIButton!
     @IBOutlet private var noButton: UIButton!
-   // @IBOutlet private var questionTitleLabel: UILabel!
     @IBOutlet weak var questionTitleLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     
