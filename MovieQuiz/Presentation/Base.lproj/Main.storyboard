@@ -118,8 +118,8 @@
                         <outlet property="imageView" destination="epb-GS-dv2" id="cUF-e7-EuW"/>
                         <outlet property="indexLabel" destination="9oJ-Jl-2UB" id="tco-5I-gDe"/>
                         <outlet property="noButton" destination="rs9-J4-EzD" id="1DN-8V-Yxs"/>
-                        <outlet property="questionLabel" destination="G4r-Hl-64f" id="sg1-68-1lL"/>
-                        <outlet property="questionTitleLabel" destination="aWr-ub-hWT" id="vUr-tO-941"/>
+                        <outlet property="questionLabel" destination="aWr-ub-hWT" id="IcU-70-uru"/>
+                        <outlet property="questionTitleLabel" destination="G4r-Hl-64f" id="SQL-Dy-6RW"/>
                         <outlet property="yesButton" destination="OHK-YX-mt2" id="tFT-IO-QwM"/>
                     </connections>
                 </viewController>
