@@ -81,7 +81,7 @@ final class MovieQuizViewController: UIViewController, QuestionFactoryDelegate {
             self.indexLabel.text = step.questionNumber
         })
     }
-    
+    //
     // Приватный метод, который меняет цвет рамки
     private func showAnswerResult(isCorrect: Bool) {
         if isCorrect {
