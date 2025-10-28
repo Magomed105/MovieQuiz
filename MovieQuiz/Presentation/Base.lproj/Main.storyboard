@@ -104,17 +104,23 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="lrA-aW-iFi">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="YP Black"/>
                         <constraints>
+                            <constraint firstItem="lrA-aW-iFi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ccx-PF-ytw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FaO-fg-w4i" secondAttribute="trailing" constant="20" id="OdJ-e6-eOm"/>
                             <constraint firstItem="FaO-fg-w4i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VcM-fC-YLV"/>
                             <constraint firstItem="FaO-fg-w4i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="quy-zR-kuZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FaO-fg-w4i" secondAttribute="bottom" id="rp7-ct-nqe"/>
+                            <constraint firstItem="lrA-aW-iFi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tG5-hT-gy3"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="lrA-aW-iFi" id="bsc-OG-Ry5"/>
                         <outlet property="imageView" destination="epb-GS-dv2" id="cUF-e7-EuW"/>
                         <outlet property="indexLabel" destination="9oJ-Jl-2UB" id="tco-5I-gDe"/>
                         <outlet property="noButton" destination="rs9-J4-EzD" id="1DN-8V-Yxs"/>
