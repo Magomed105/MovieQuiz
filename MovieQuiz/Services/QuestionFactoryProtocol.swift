@@ -1,6 +1,6 @@
 import Foundation
 
-protocol QuestionFactoryProtocol: AnyObject {
-    var delegate: QuestionFactoryDelegate? { get set }
+protocol QuestionFactoryProtocol {
     func requestNextQuestion()
+    func loadData()
 }
